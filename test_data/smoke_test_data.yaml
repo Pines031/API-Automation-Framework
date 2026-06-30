@@ -1,0 +1,11 @@
+register:
+ - ['/login/register',{'data':{'username':'wangwu','password':'e10adc3949ba59abbe56e057f20f883e'}},100,10086,'wangwu']
+
+login:
+ - ['/login/verifyLogin',{'params':{'username':'wangwu','password':'e10adc3949ba59abbe56e057f20f883e'}},200,100]
+
+buy:
+ - ['/user/userBuyChangeMoney',{'data':{'changeMoneyId':5,'userId':1,'passWord':"666666"}},200,100,'lisi',1000]
+
+updateUserProfile:
+ - ['/user/updateUserProfile/10086',{'data':{'realname':'王五','idcard':'340123199909085623','paypwd':'666666','phone':'18356962369','email':'18356962369@163.com'}},100]
